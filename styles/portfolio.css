@@ -1,0 +1,149 @@
+
+
+.open-sans {
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  .text-pyma{
+    color: #FD6E0A;
+  }
+  /* header */
+  .header{
+    background-image: url('../images/developer.png') ,url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    margin: 0 0 0 50px;
+
+  }
+  
+
+/* nav styles*/
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+.nav-tit{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* share classes */
+.second-background{
+background-color: #FFF8F3;
+
+}
+.dark2{
+    color: #575656;
+}
+.btn-py{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+.section-titl{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-des{
+    font-size: 18px;
+    color: #757575;
+}
+.tex-c{
+    text-align: center;
+}
+/*  */
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 176px;
+}
+.banner-con{
+    width: 593px;
+}
+.banner-gret{
+font-size: 45px;
+font-weight: 600;
+}
+.banner-titl{
+    font-size: 80px;
+    font-weight: bold;
+
+}
+.banner-des{
+    font-size: 20px;
+    color:#757575;
+
+}
+.img-con{
+    width: 584px;
+    height: 676px;
+}
+
+/* main styles */
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+/* about styles */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+    
+/* about-items styles */
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-title{
+    color: #757575;
+}
+.item-des{
+    font-weight: 600;
+}
+/* what i do section */
+
+
+/* skill container */
+.skill-con{
+    display:flex;
+    /* justify-content: space-around; */
+    gap: 24px;
+    
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 55px 0px rgba(0, 0, 0, 0.06);
+}
